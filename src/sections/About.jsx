@@ -20,7 +20,13 @@ const About = () => {
         md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]"/>
             <div className="z-10">
               <p className="headtext">What's up? I'm Rich Greene</p>
-              <p className="subtext">Place "About Me" blurb here.</p>
+              <p className="subtext">
+                {/* Place "About Me" blurb here. */}
+                I'm an innate artist, former politico and burgeoning software developer. I made this website that you are currently viewing 
+                to showcase my ability to create eye-catching and modern websites and web applications. 
+                Check out my projects below to see my latest creations, and don't be hesitant at reaching out 
+                about your next desired project. Let's BUILD!
+                </p>
             </div>
             <div className="absolute inset-x-0 pointer-evets-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo"/>
           </div>  {/* {Grid 2} */}
