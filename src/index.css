@@ -1,5 +1,6 @@
 
-@import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Rajdhani:wght@300;400;500;600;700&display=swap");
+
 @import "tailwindcss";
 
 @theme {
@@ -50,11 +51,12 @@
   }
 }
 body {
-  background: #030412;
-  font-family: "Funnel Display", sans-serif;
+  background: #12001b;
+  font-family: "Rajdhani", comic-sans, typewriter;
   color: white;
   scroll-behavior: smooth;
   overflow-x: hidden;
+  position: relative;
 }
 
 .c-space {
@@ -78,7 +80,7 @@ body {
 }
 
 .subtext {
-  @apply text-neutral-400 text-sm md:text-base text-pretty;
+  @apply text-green-400 text-sm md:text-base text-pretty;
 }
 
 /* Navigation */

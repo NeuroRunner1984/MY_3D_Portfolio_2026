@@ -21,7 +21,7 @@ const Footer = () => {
       )
       )}
       </div>
-      <p>© 2025 Rich Greene. All rights reserved.</p>
+      <p>© 2026 Rich Greene. All rights reserved.</p>
    </section>
   );
 };

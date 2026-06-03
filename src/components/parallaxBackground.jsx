@@ -24,7 +24,7 @@ const parallaxBackground = () => {
 
         return (
           
-          <section className=" inset-0  bg-black/40" style={{position: "absolute", width: "100vw", height: "100vh"}}>
+          <section className="absolute inset-0  bg-purple/50" style={{ width: "100vw", height: "100vh"}}>
             <div className="relative h-screen overflow-y-hidden">
               {/* Background Sky */}
               <div

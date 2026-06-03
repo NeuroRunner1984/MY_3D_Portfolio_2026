@@ -36,7 +36,7 @@ try {
     from_name: formData.name, 
     to_name: "Rich",
     from_email: formData.email,
-    to_email: "raarong@gmail.com",
+    to_email: "raarong@protonmail.com",
     message: formData.message,
 
   },
@@ -69,12 +69,12 @@ try {
   <div className="flex flex-col items-center justify-center max-w-md p-5 mx-auto border border-white/10 rounded-2-xl bg-primary">
   <div className="flex flex-col items-start w-full gap-5 mb-10">
     <h2 className="text-heading">
-      Let's Talk
+      Let's Talk!
     </h2>
-    <p className="font-normal text-neutral-400">
-      Whether you're looking to build a new website, 
-      improve your existing platform, or bring a unique project to life, 
-      I'm here to help.
+    <p id="contact" className="font-normal text-neutral-400">
+      Are you thinking of a new website or are you looking to upscale your current one? 
+      Maybe you want a custom site or app built; or are even in search of a new member to join your team. If so, 
+      contact me using the form below.
     </p>
   </div>
   <form className="w-full" onSubmit={handleSubmit} >

@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useEffect, useState, useRef } from "react";
 import { section } from "motion/react-client";
 import { Globe } from "../components/globe";
 import Card from "../components/Card";
@@ -8,8 +8,15 @@ import {Frameworks} from "../components/Frameworks";
 
 const About = () => {
   const grid2Container = useRef(); 
+  const [time, setTime] = useState(new Date());
+
+  useEffect(() => {
+    const interval = setInterval(() => setTime(new Date()), 1000);
+    return () => clearInterval(interval);
+  }, []);
+
   return (
-    <section className="c-space section-spacing">
+    <section id="about" className="c-space section-spacing">
       <h2 className="text-heading"> 
         Who am I?
       </h2>
@@ -23,8 +30,8 @@ const About = () => {
               <p className="subtext">
                 {/* Place "About Me" blurb here. */}
                 I'm an innate artist, former politico and burgeoning software developer. I made this website that you are currently viewing 
-                to showcase my ability to create eye-catching and modern websites and web applications. 
-                Check out my projects below to see my latest creations, and don't be hesitant at reaching out 
+                to showcase my ability to create eye-catching & modern websites & web applications. 
+                Check out my projects below to see my latest creations (some of which are works in progress), and don't be hesitant at reaching out 
                 about your next desired project. Let's BUILD!
                 </p>
             </div>
@@ -47,8 +54,10 @@ const About = () => {
           {/* {Grid 3} */}
          <div className="grid-black-color grid-3"> 
           <div className="z-10 w-[50%]">
-            <p className="headtext">Time Zone</p>
-            <p className="subtext">I'm based in NYC, and open to remote work worldwide.</p>
+      <p className="headtext"> 
+        Time: <span className="text-purple-500">{time.toLocaleTimeString()}</span> 
+      </p>
+      <p className="subtext">I'm based in NYC, and open to remote work worldwide.</p>
           </div>
           <figure className="absolute left-[30%] top-[10%]">
             <Globe />
@@ -67,9 +76,9 @@ const About = () => {
           <div className="grid-default-color grid-5">
             <div className="z-10 w-[50%]">
               <p className="headtext">Tech Stack</p>
-              <p className="subtext">
-                I specialize in a variety of languages, frameworks, tools & technologies 
-                that allow me to build scalable & robust websites and web applications.
+              <p className=" subtext ">
+                As a fledgling Web Developer/Software Engineer the main tech stack that I'm currently focused on & working with is M.E.R.N. (MongoDB, Express, React, Node).
+               
               </p>
             </div>
             <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">
