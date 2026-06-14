@@ -1,3 +1,6 @@
+I've taylored all code to reflect my own projects, work history, goals, etc. Not only that I changed & added background & animations. 
+The following README below is moreso for the technical purposes for myself & others who are novices at this stage of their tech career.
+
 # 🚀 3D Developer Portfolio
 
 A modern, animated 3D developer portfolio built with React, Three.js, TailwindCSS, and motion effects — designed to help you stand out and showcase your skills creatively.
