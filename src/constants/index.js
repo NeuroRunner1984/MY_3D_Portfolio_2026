@@ -8,8 +8,9 @@ export const myProjects = [
       "A fully scalable application built with Vanilla JavaScript on the Frontend & Backend.",
       "On the Backend, NodeJS is used for secure administration & customer implementation, & MongoDB as well for database management.",
       "Showcases a modern eye-catching, responsive design.",
+       "Currently in development-specifically, the mobile controls, & the actual products. All of which work locally, but are not yet deployed to the live version of the project. Continue checking back regularly for the full experience!",
     ],
-    href: "",
+    href: "https://online-cyberpunk-store-clone-jp6g.onrender.com/products",
     logo: "",
     image: "/assets/projects/Online_Store_Clone.png",
     tags: [
@@ -45,8 +46,9 @@ export const myProjects = [
       "DOM manipulation for unique self-produced game interactions that vary from the original NES game.",
       "Vanilla JavaScript serves as the core programming language for the game.",
       "A HipHop influenced design that is fully responsive for today's use of mobile devices to primarily access the web.",
+      "NOTE: The mobile controls portion of the project are still in development. If yiu're unable to play switch to desktop for the full experience.",
     ],
-    href: "",
+    href: "https://neurorunner1984.github.io/DUCK-HUNT-REMIX26/",
     logo: "",
     image: "/assets/projects/duck_hunt_remixed.png",
     tags: [
@@ -82,8 +84,9 @@ export const myProjects = [
      "Showcases standard game loop initialization.",
       "DOM manipulation for unique self-produced game interactions that differ from the original arcade game.",
       "Once again, Vanilla JavaScript serves as the core programming language for the game.",
+      "NOTE: The mobile controls portion of the project are still in development. If yiu're unable to play switch to desktop for the full experience.",
     ],
-    href: "",
+    href: " https://neurorunner1984.github.io/PACMAN-REMIXED-2026/",
     logo: "",
     image: "/assets/projects/pacman_remixed.png",
     tags: [
@@ -113,8 +116,9 @@ export const myProjects = [
       "The last in a triolgy of classic arcade games that I decided to remix showcasing the power of modern Vanilla JavaScript in game development.",
       "Further showcasing my ability to manipulate the DOM for a varity of unique game interactions.",
       "I highlight the power of HTML5 in it's abilty to run directly in the browser as simple direct distribution.",
+      "NOTE: The mobile controls portion of the project are still in development. If yiu're unable to play switch to desktop for the full experience.",
     ],
-    href: "",
+    href: "https://neurorunner1984.github.io/SPACE-INVADERS-REMIXED-2026/",
     logo: "",
     image: "/assets/projects/space_invaders_remix.png",
     tags: [
@@ -218,14 +222,14 @@ export const mySocials = [
     icon: "public/assets/logos/GitHub_Invertocat_White.png",
   },
   {
-    name: "Linkedin",
-    href: "",
-    icon: "/assets/socials/linkedIn.svg",
+    name: "CODEPEN",
+    href: "https://codepen.io/RICHelDIOS",
+    icon: "public/assets/socials/codepen-white.png",
   },
   {
-    name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
-    icon: "/assets/socials/instagram.svg",
+    name: "DEV",
+    href: "https://dev.to/neurorunner1984",
+    icon: "public/assets/socials/dev-black.png",
   },
 ];
 
