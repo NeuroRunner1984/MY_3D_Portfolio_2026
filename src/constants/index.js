@@ -36,6 +36,39 @@ export const myProjects = [
       },
     ],
   },
+
+  {
+    id: 1,
+    title: "Travel Website Clone",
+    description:
+      "A full clone of a generic travel website.",
+    subDescription: [
+      "A fully scalable application built with Vanilla JavaScript on the Frontend.",
+      "Showcases a modern eye-catching, responsive design.",
+       "The website is meant to focus on my abilty to use Frontend design.",
+    ],
+    href: "https://dynamic-daffodil-eaae2e.netlify.app/",
+    logo: "",
+    image: "public/assets/projects/travel-site.png",
+    tags: [
+      {
+        id: 1,
+        name: "HTML5",
+        path: "/assets/logos/html5.svg",
+      },
+      {
+         id: 2,
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
+      },
+      {
+        id: 3,
+        name: "CSS3",
+        path: "/assets/logos/css3.svg",
+      },
+    
+    ],
+  },
   {
     id: 2,
     title: " Duck Hunt REMIXED! ",
