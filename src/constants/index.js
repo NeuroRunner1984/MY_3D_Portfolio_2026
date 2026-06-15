@@ -10,7 +10,7 @@ export const myProjects = [
       "Showcases a modern eye-catching, responsive design.",
        "Currently in development-specifically, the mobile controls, & the actual products. All of which work locally, but are not yet deployed to the live version of the project. Continue checking back regularly for the full experience!",
     ],
-    href: "https://online-cyberpunk-store-clone-jp6g.onrender.com/products",
+    href: "https://online-cyberpunk-store-clone-nmwu-chi.vercel.app/products",
     logo: "",
     image: "/assets/projects/Online_Store_Clone.png",
     tags: [
